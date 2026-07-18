@@ -49,7 +49,7 @@ export default function Contact() {
               transition={{ duration: 0.5, delay: 0.3 }}
             >
               <a
-                href="/resume.pdf"
+                href="/harshavardan-portfolio/resume.pdf"
                 className="inline-flex items-center gap-2 rounded-xl bg-signal-blue px-6 py-3 text-sm font-semibold text-white hover:bg-signal-blue/90 transition-colors"
               >
                 <Download className="h-4 w-4" />

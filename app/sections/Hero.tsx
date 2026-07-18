@@ -81,7 +81,7 @@ export default function Hero() {
                 View Projects
               </a>
               <a
-                href="/resume.pdf"
+                href="/harshavardan-portfolio/resume.pdf"
                 className="inline-flex items-center gap-2 rounded-xl border border-border-subtle/50 bg-surface-dark/60 px-6 py-3 text-sm font-semibold text-text-primary hover:bg-surface-light/50 transition-colors"
               >
                 <Download className="h-4 w-4" />
@@ -104,7 +104,7 @@ export default function Hero() {
               {/* Photo container */}
               <div className="relative w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden border border-border-subtle/30 bg-surface-dark/80 backdrop-blur-sm">
                 <img
-                  src="/images/profile.png"
+                  src="/harshavardan-portfolio/images/profile.png"
                   alt="Harshavardan N"
                   className="h-full w-full object-cover"
                 />

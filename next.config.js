@@ -1,4 +1,6 @@
 /** @type {import('next').NextConfig} */
+const repoBasePath = '/harshavardan-portfolio';
+
 const nextConfig = {
   output: 'export',
   distDir: 'dist',
@@ -6,6 +8,8 @@ const nextConfig = {
     unoptimized: true,
   },
   trailingSlash: true,
+  basePath: repoBasePath,
+  assetPrefix: repoBasePath,
 }
 
 module.exports = nextConfig
